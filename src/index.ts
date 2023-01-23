@@ -28,7 +28,7 @@ const params = process.argv.slice(2);
 
       console.log(`		Day ${day}:`);
 
-      const solutions = (await fs.promises.readdir(`./src/${year}/day-${day}`)).filter((fileName) => fileName.match(/.ts/));
+      const solutions = (await fs.promises.readdir(`./src/${year}/day-${day}`)).filter((fileName) => fileName.match(/p\d.ts/));
 
       for (const solution of solutions) {
         const startTime = process.hrtime();
