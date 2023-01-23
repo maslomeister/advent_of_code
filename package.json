@@ -1,0 +1,29 @@
+{
+  "name": "advent_of_code",
+  "version": "1.0.0",
+  "main": "\"\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maslomeister/advent_of_code.git"
+  },
+  "scripts": {
+    "start": "swc-node ./src"
+  },
+  "author": "maslomeister",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maslomeister/advent_of_code/issues"
+  },
+  "homepage": "https://github.com/maslomeister/advent_of_code#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "swc-node": "^1.0.0",
+    "typescript": "^4.9.4"
+  }
+}
